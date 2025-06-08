@@ -49,7 +49,7 @@ Currently, we only support **llava-v1.5** models. You can simply run the `main.p
 For example, to run the ScienceQA evaluation of `llava-v1.5-7b` model with quantizing all weights and activations, you can run the following command:
 
 ```bash
-cd QSVD-nips/fake_quant
+cd QSVD/fake_quant
 python main.py --model liuhaotian/llava-v1.5-7b  \
                 --a_bits 4 \
                 --w_bits 4 \
